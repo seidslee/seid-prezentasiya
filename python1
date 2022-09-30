@@ -1,6 +1,10 @@
 a=int(input("Götürdüyünüz məbləğ: "))
-b=float(input("illik faiz: "))
 s=int(input("odenilecek ay: "))
+
+if s>12:
+  b=15
+elif s<=12:
+    b=10
 c=a+((a*b)/100)
 d=c/s
 print("odenmeli mebleg",c)
