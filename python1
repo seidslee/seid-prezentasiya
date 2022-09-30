@@ -1,8 +1,7 @@
 a=int(input("Götürdüyünüz məbləğ: "))
 b=float(input("illik faiz: "))
 s=int(input("odenilecek ay: "))
-c=a*b
+c=a+((a*b)/100)
 d=c/s
 print("odenmeli mebleg",c)
 print("ayliq odenilecek mebleg",d)
-
